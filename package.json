@@ -1,0 +1,27 @@
+{
+  "name": "random-text-alert",
+  "version": "1.0.0",
+  "description": "Mostrar mensajes de alerta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKMoralesRamos/random-text-alert.git"
+  },
+  "keywords": [],
+  "author": "Karen Morales <dev.karenmorales@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKMoralesRamos/random-text-alert/issues"
+  },
+  "homepage": "https://github.com/AKMoralesRamos/random-text-alert#readme",
+  "bin": {
+    "random-text-alert": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "user": "^0.0.0"
+  }
+}
